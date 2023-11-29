@@ -1,10 +1,15 @@
+/* !Общие настройки */
+body {
+	width: 1440px;
+	margin: auto;
+}
+
 /* !Шапка сайта */
 .header {
 	display: flex;
 	justify-content: space-between;
-	width: 1440px;
-	padding: 92px 49px 96px 51px;
-	margin: auto;
+	width: 100%;
+	padding: 92px 49px 90px 51px;
 }
 /* Контейнер меню */
 .header__menu {
@@ -15,6 +20,9 @@
 	display: flex;
 	gap: 32px;
 	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 .header__links-list-item, .header__address {
 	list-style-type: circle;
@@ -29,7 +37,7 @@
 
 /* Контейнер с логотипом */
 .header__logo {
-width: 300px;
+width: 295px;
 }
 .header__logo-img {
 	width: 148px;
@@ -45,6 +53,7 @@ address {
 	font-style: normal;
 	font-size: 18px;
 	line-height: 24.3px;
+	font-weight: 400;
 }
 .header__address:last-child {
 	border: none;
@@ -52,39 +61,72 @@ address {
 
 /* !Основное содержание страницы */
 /* *Cекция Cover */
-/* .cover {
-
+.cover {
+	width: 100%;
+	background-image: url("../images/cover.jpg"); 
+	
 }
 .overlay {
-
-} */
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	
+} 
 /* Заголовок */
-/* .cover__title {
-
-} */
+.cover__title {
+	color: #fff;
+	font-family: Raleway;
+	font-size: 100px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 115%; /* 115px */
+	text-transform: uppercase;
+	padding: 165px 20px 130px 50px;
+} 
 /* Модификаторы для заголовка */
-/* .aligned-text {
-
+.aligned-text {
+	display: block;
+	margin-bottom: 10px ;
 }
 .aligned-text_center {
-
+	display: block;
+	text-align: center;
+	margin-bottom: 6px;
+	padding-right: 60px;
 }
 .aligned-text_right {
+	display: block;
+	text-align: end;
 
 }
 .letter-spacing-extended {
-
-} */
+	letter-spacing: 30px;
+	word-spacing: -23px;
+} 
 /* Общий контейнер для подзаголовка и кнопки */
-/* .cover__description {
-
+.cover__description {
+display: flex;
+justify-content: end;
+align-items: center;
+gap: 0px 80px;
+padding: 0px 50px 47px 78px;
 }
 .cover__description-text {
-
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	font-family: Raleway;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px; /* 127.273% */
+	text-transform: uppercase;
+	word-spacing: 17px;
 }
 .bet-button {
-
-} */
+	padding: 11px 32px;
+	background-color: transparent;
+	border: 1px solid white;
+	word-spacing: normal;
+} 
 /* *Секция lots */
 /* .lots {
 
