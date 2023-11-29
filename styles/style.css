@@ -149,8 +149,7 @@ padding: 0px 50px 47px 78px;
 	gap: 25px;
 	list-style-type: none;
 }
-.lots__card-list-item 
-{
+.lots__card-list-item {
 	background-color: red;
 	flex-basis: 430px;
 }
@@ -204,14 +203,13 @@ padding: 0px 50px 47px 78px;
 	color: #000;
 	font-family: Raleway;
 	font-size: 20px;
-	font-style: normal;
+	font-style: normalS;
 	font-weight: 400;
 	line-height: normal;
 }
 /* *Секция об аукционе */
  .about {
 	display: grid;
-	grid-template-columns: 430px 885px;
 	grid-template-columns: 430px 885px;
 	gap: 25px;
 	width: 100%;
