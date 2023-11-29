@@ -14,19 +14,19 @@
 <body>
 
 	<!-- !Шапка сайта -->
-	<header class="header">
+	<header id="01" class="header">
 
 		<!-- Контейнер меню -->
 		<nav class="header__menu">
 			<ul class="header__links-list">
 				<li class="header__links-list-item_no-bullit">
-					<a href="" class="header__link_active">главная</a>
+					<a href="#01" class="header__link_active">главная</a>
 				</li>
 				<li class="header__links-list-item">
-					<a href="" class="header__link">посмотреть лоты</a>
+					<a href="#02" class="header__link">посмотреть лоты</a>
 				</li>
 				<li class="header__links-list-item">
-					<a href="" class="header__link">об аукционе</a>
+					<a href="#03" class="header__link">об аукционе</a>
 				</li>
 			</ul>
 		</nav>
@@ -70,7 +70,7 @@
 		</section>
 
 		<!-- *Секция с лотами -->
-		<section class="lots">
+		<section id="02" class="lots">
 			<h2 class="lots__heading">Лоты</h2>
 
 			<!-- Карточка с фильмом -->
@@ -129,21 +129,30 @@
 		</section>
 
 		<!-- *Секция об аукционе -->
-		<section class="about">
+		<section id="03" class="about">
 
 			<!-- Колонка с логотипом -->
-			<div class="about__column">
 				<div class="about__logo">
-					<!-- <img src="images/logo-white.svg" alt="" class="about__logo-image"> -->
+					<img src="images/logo-white.svg" alt="" class="about__logo-image">
 				</div>
-			</div>
 
 			<!-- Колонка с описанием -->
-			<div class="about__column">
-				<h2 class="about__title"></h2>
-				<p class="about__text"></p>
-				<p class="about__text"></p>
-			</div>
+				<div class="about__description">
+					<h2 class="about__title">Об аукционе</h2>
+					<p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого
+						антиквариата.
+						Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник
+						девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные
+						вещи,
+						созданные любителями?</p>
+					<p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и
+						прах
+						растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+						на
+						критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
+						культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
+						культовыми. </p>
+				</div>
 		</section>
 	</main>
 

@@ -66,7 +66,6 @@ address {
 	width: 100%;
 	background-image: url("../images/cover.jpg");
 	background-size: cover; 
-	
 }
 .overlay {
 	width: 100%;
@@ -151,7 +150,8 @@ padding: 0px 50px 47px 78px;
 	gap: 25px;
 	list-style-type: none;
 }
-.lots__card-list-item  {
+.lots__card-list-item 
+{
 	background-color: red;
 	flex-basis: 430px;
 }
@@ -174,7 +174,6 @@ padding: 0px 50px 47px 78px;
 	text-decoration-line: underline;
 	text-transform: uppercase;
 	padding: 50px 40px 35px 40px; 
-	
 }
 .card__description {
 	color: #FFF;
@@ -184,7 +183,6 @@ padding: 0px 50px 47px 78px;
 	font-weight: 400;
 	line-height: 120%; /* 24px */
 	padding: 0px 40px 50px 40px;
-	
 }
 
 .card_type-film {
@@ -212,36 +210,63 @@ padding: 0px 50px 47px 78px;
 	line-height: normal;
 }
 /* *Секция об аукционе */
-/* .about {
-
+ .about {
+	display: grid;
+	grid-template-columns: 430px 885px;
+	grid-template-columns: 430px 885px;
+	gap: 25px;
+	width: 100%;
+	padding: 180px 50px;
 }
-.about__column {
 
-} */
 /* Колонка с логотипом */
-/* .about_logo {
-
+ .about__logo {
+	display: flex;
+	justify-content: center;
+	width: 240px;
+	height: 240px;
+	margin-left: 95px;
+	background-color: #000;
+	border-radius: 100%;
 }
 .about__logo-image {
-
-} */
+	width: 148px;
+	display: block;
+} 
 /* Колонка с описанием */
-/* .about__title {
-
+.about__description {
+	
+}
+ .about__title {
+	color: #000;
+	font-family: Raleway;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	line-height: normal;
+	padding: 100px 0px;
 }
 .about__text {
-
-} */
-
+	color: #000;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.about__text:last-child {
+	padding-top: 25px ;
+}
 /* !Подвал сайта */
-/* .footer {
+ .footer {
 
-} */
+} 
 /* Контейнер с адресом */
-
 /* Контейнер меню */
 
-/* .footer__menu {
+ .footer__menu {
 
 }
 .footer__menu-list {
@@ -255,10 +280,10 @@ padding: 0px 50px 47px 78px;
 }
 .footer__menu-link_active {
 
-} */
+} 
 
 /* Контейнер с соц.сетями */
-/* .footer__social {
+ .footer__social {
 
 }
 .footer__social-list {
@@ -272,4 +297,4 @@ padding: 0px 50px 47px 78px;
 }
 .footer_social-icon {
 
-} */
+} 
