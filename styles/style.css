@@ -42,6 +42,7 @@ width: 295px;
 .header__logo-img {
 	width: 148px;
 	height: 105px;
+	background-size: cover;
 }
 /* Контейнер с адресом */
 address {
@@ -63,11 +64,13 @@ address {
 /* *Cекция Cover */
 .cover {
 	width: 100%;
-	background-image: url("../images/cover.jpg"); 
+	background-image: url("../images/cover.jpg");
+	background-size: cover; 
 	
 }
 .overlay {
 	width: 100%;
+	height: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
 	
 } 
@@ -128,41 +131,86 @@ padding: 0px 50px 47px 78px;
 	word-spacing: normal;
 } 
 /* *Секция lots */
-/* .lots {
-
-} */
+ .lots {
+	padding: 180px 50px 0px 50px;
+} 
 /* Стили для заголовка секции */
-/* .lots__heading {
-
+ .lots__heading {
+	color: #000;
+	font-family: Raleway;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	padding: 0px 0px 27px 40px;
 }
 /* Карточки */
-/* .lots__card-list {
-
+ .lots__card-list {
+	display: flex;
+	gap: 25px;
+	list-style-type: none;
 }
 .lots__card-list-item  {
-
+	background-color: red;
+	flex-basis: 430px;
 }
 .card {
-
+ 	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
 }
 .card-link {
-
+	text-decoration: none;
 }
 .card__title {
-
+	color: #FFF;
+	font-family: Raleway;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%; /* 26.4px */
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	padding: 50px 40px 35px 40px; 
+	
 }
 .card__description {
-
+	color: #FFF;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120%; /* 24px */
+	padding: 0px 40px 50px 40px;
+	
 }
-.card_type-film {
 
+.card_type-film {
+	background-image: url("../images/card-lot-01.jpg");
+	background-size: cover;
 }
 .card_type-book {
-	
+	background-image: url("../images/card-lot-02.jpg"); 
+	background-size: cover;
 }
 .card_type-picture {
-	
-}  */
+	background-image: url("../images/card-lot-03.jpg"); 
+	background-size: cover;
+}
+.lots__look-more-link {
+	display: inline-block;
+	margin: 30px 0px 0px 40px;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+	color: #000;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
 /* *Секция об аукционе */
 /* .about {
 
