@@ -54,18 +54,18 @@ address {
 
 /* !Основное содержание страницы */
 /* *Cекция Cover */
-.cover {
+/* .cover {
 
 }
 .overlay {
 
-}
+} */
 /* Заголовок */
-.cover__title {
+/* .cover__title {
 
-}
+} */
 /* Модификаторы для заголовка */
-.aligned-text {
+/* .aligned-text {
 
 }
 .aligned-text_center {
@@ -76,9 +76,9 @@ address {
 }
 .letter-spacing-extended {
 
-}
+} */
 /* Общий контейнер для подзаголовка и кнопки */
-.cover__description {
+/* .cover__description {
 
 }
 .cover__description-text {
@@ -86,17 +86,17 @@ address {
 }
 .bet-button {
 
-}
+} */
 /* *Секция lots */
-.lots {
+/* .lots {
 
-}
+} */
 /* Стили для заголовка секции */
-.lots__heading {
+/* .lots__heading {
 
 }
 /* Карточки */
-.lots__card-list {
+/* .lots__card-list {
 
 }
 .lots__card-list-item  {
@@ -122,38 +122,38 @@ address {
 }
 .card_type-picture {
 	
-}
+}  */
 /* *Секция об аукционе */
-.about {
+/* .about {
 
 }
 .about__column {
 
-}
+} */
 /* Колонка с логотипом */
-.about_logo {
+/* .about_logo {
 
 }
 .about__logo-image {
 
-}
+} */
 /* Колонка с описанием */
-.about__title {
+/* .about__title {
 
 }
 .about__text {
 
-}
+} */
 
 /* !Подвал сайта */
-.footer {
+/* .footer {
 
-}
+} */
 /* Контейнер с адресом */
 
 /* Контейнер меню */
 
-.footer__menu {
+/* .footer__menu {
 
 }
 .footer__menu-list {
@@ -167,10 +167,10 @@ address {
 }
 .footer__menu-link_active {
 
-}
+} */
 
 /* Контейнер с соц.сетями */
-.footer__social {
+/* .footer__social {
 
 }
 .footer__social-list {
@@ -184,4 +184,4 @@ address {
 }
 .footer_social-icon {
 
-}
+} */
