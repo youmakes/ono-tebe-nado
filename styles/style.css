@@ -1,1 +1,187 @@
-/* место для вашего кода */
+/* !Шапка сайта */
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 1440px;
+	padding: 92px 50px;
+	margin: auto;
+	background-color: green;
+	
+}
+/* Контейнер меню */
+.header__menu {
+	display: flex;
+	align-items: center;
+}
+.header__links-list {
+	display: flex;
+	gap: 32px;
+	font-size: 18px;
+}
+.header__links-list-item, .header__address {
+	list-style-type: circle;
+	border-bottom: 1px solid black;
+}
+.header__links-list-item_no-bullit {
+	list-style-type: none;
+}
+.header__link, .header__link_active, .header__address {
+	text-decoration: none;
+}
+
+/* Контейнер с логотипом */
+.header__logo {
+width: 300px;
+}
+.header__logo-img {
+	width: 148px;
+	height: 105px;
+}
+/* Контейнер с адресом */
+address {
+	display: flex;
+	align-items: center;
+}
+.address {
+	width: 240px;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24.3px;
+}
+.header__address:last-child {
+	border: none;
+}
+
+/* !Основное содержание страницы */
+/* *Cекция Cover */
+.cover {
+
+}
+.overlay {
+
+}
+/* Заголовок */
+.cover__title {
+
+}
+/* Модификаторы для заголовка */
+.aligned-text {
+
+}
+.aligned-text_center {
+
+}
+.aligned-text_right {
+
+}
+.letter-spacing-extended {
+
+}
+/* Общий контейнер для подзаголовка и кнопки */
+.cover__description {
+
+}
+.cover__description-text {
+
+}
+.bet-button {
+
+}
+/* *Секция lots */
+.lots {
+
+}
+/* Стили для заголовка секции */
+.lots__heading {
+
+}
+/* Карточки */
+.lots__card-list {
+
+}
+.lots__card-list-item  {
+
+}
+.card {
+
+}
+.card-link {
+
+}
+.card__title {
+
+}
+.card__description {
+
+}
+.card_type-film {
+
+}
+.card_type-book {
+	
+}
+.card_type-picture {
+	
+}
+/* *Секция об аукционе */
+.about {
+
+}
+.about__column {
+
+}
+/* Колонка с логотипом */
+.about_logo {
+
+}
+.about__logo-image {
+
+}
+/* Колонка с описанием */
+.about__title {
+
+}
+.about__text {
+
+}
+
+/* !Подвал сайта */
+.footer {
+
+}
+/* Контейнер с адресом */
+
+/* Контейнер меню */
+
+.footer__menu {
+
+}
+.footer__menu-list {
+
+}
+.footer__menu-list-item {
+
+}
+.footer__menu-link {
+
+}
+.footer__menu-link_active {
+
+}
+
+/* Контейнер с соц.сетями */
+.footer__social {
+
+}
+.footer__social-list {
+
+}
+.footer__social-list-item {
+
+}
+.footer__social-link {
+
+}
+.footer_social-icon {
+
+}

@@ -1,10 +1,181 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  </head>
-  <body></body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="styles/global.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+</head>
+
+<body>
+
+	<!-- !Шапка сайта -->
+	<header class="header">
+
+		<!-- Контейнер меню -->
+		<nav class="header__menu">
+			<ul class="header__links-list">
+				<li class="header__links-list-item_no-bullit">
+					<a href="" class="header__link_active">главная</a>
+				</li>
+				<li class="header__links-list-item">
+					<a href="" class="header__link">посмотреть лоты</a>
+				</li>
+				<li class="header__links-list-item">
+					<a href="" class="header__link">об аукционе</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Контейнер логотипа -->
+		<div class="header__logo">
+			<img src="images/logo-black.svg" alt="" class="header__logo-img">
+		</div>
+
+		<!-- Контейнер с адресом -->
+		<address>
+			<div class="address">
+				<a href="tel:+99995555555" class="header__address">+9 999 555 5555</a><br>
+				<a href="mailto:sergeitelenkov2001@yandex.ru" class="header__address">info@sobaka.ge</a><br>
+				<a class="header__address">наб. Принсенграхт 263-265, Амстердам</a>
+			</div>
+		</address>
+	</header>
+
+	<!-- !Основное содержание страницы -->
+	<main>
+
+		<!-- *Секция Cover -->
+		<section class="cover">
+			<div class="overlay">
+
+				<!-- Заголовок -->
+				<h1 class="cover__title">
+					<span class="aligned-text letter-spacing-extended"></span>
+					<span class="aligned-text_center letter-spacing-extended"></span>
+					<span class="aligned-text_right letter-spacing-extended"></span>
+				</h1>
+
+				<!-- Общий контейнер для подзаголовока и кнопки -->
+				<div class="cover__description">
+					<h2 class="cover__description-text"></h2>
+					<button class="bet-button"></button>
+				</div>
+			</div>
+		</section>
+
+		<!-- *Секция с лотами -->
+		<section class="lots">
+			<h2 class="lots__heading"></h2>
+
+			<!-- Карточка с фильмом -->
+			<ul class="lots__card-list">
+				<li class="lots__card-list-item">
+					<a href="#" class="card-link">
+						<article class="card card_type_film">
+							<div class="overlay">
+								<h3 class="card__title"></h3>
+								<p class="card__description"></p>
+							</div>
+						</article>
+					</a>
+				</li>
+
+				<!-- Карточка с книгой -->
+				<li class="lots__card-list-item">
+					<a href="#" class="card-link">
+						<article class="card card_type_book">
+							<div class="overlay">
+								<h3 class="card__title"></h3>
+								<p class="card__description"></p>
+							</div>
+						</article>
+					</a>
+				</li>
+
+				<!-- Карточка с картиной -->
+				<li class="lots__card-list-item">
+					<a href="#" class="card-link">
+						<article class="card card_type_picture">
+							<div class="overlay">
+								<h3 class="card__title"></h3>
+								<p class="card__description"></p>
+							</div>
+						</article>
+					</a>
+				</li>
+			</ul>
+			<a href="#" class="lots__look-more-link"></a>
+		</section>
+
+		<!-- *Секция об аукционе -->
+		<section class="about">
+
+			<!-- Колонка с логотипом -->
+			<div class="about__column">
+				<div class="about__logo">
+					<img src="" alt="" class="about__logo-image">
+				</div>
+			</div>
+
+			<!-- Колонка с описанием -->
+			<div class="about__column">
+				<h2 class="about__title"></h2>
+				<p class="about__text"></p>
+				<p class="about__text"></p>
+			</div>
+		</section>
+	</main>
+
+	<!-- !Подвал сайта -->
+	<footer class="footer">
+
+		<!-- Контейнер с адресом -->
+		<address class="address">
+			<span class="header__address"></span>
+		</address>
+
+		<!-- Контейнер меню -->
+		<nav class="footer__menu">
+			<ul class="footer__menu-list">
+				<li class="footer__menu-list-item">
+					<a href="#" class="footer__menu-link_active"></a>
+				</li>
+				<li class="footer__menu-list-item">
+					<a href="#" class="footer__menu-link"></a>
+				</li>
+				<li class="footer__menu-list-item">
+					<a href="#" class="footer__menu-link"></a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Контейнер с соц. сетями -->
+		<div class="footer__social">
+			<ul class="footer__social-list">
+				<li class="footer__social-list-item">
+					<a href="#" class="footer__social-link">
+						<img src="#" alt="" class="footer_social-icon">
+					</a>
+				</li>
+				<li class="footer__social-list-item">
+					<a href="#" class="footer__social-link">
+						<img src="#" alt="" class="footer_social-icon">
+					</a>
+				</li>
+				<li class="footer__social-list-item">
+					<a href="#" class="footer__social-link">
+						<img src="#" alt="" class="footer_social-icon">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+</body>
+
 </html>
