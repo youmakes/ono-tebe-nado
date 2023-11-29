@@ -65,13 +65,12 @@ address {
 .cover {
 	width: 100%;
 	background-image: url("../images/cover.jpg");
-	background-size: cover; 
+	background-size: cover;
 }
 .overlay {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
-	
 } 
 /* Заголовок */
 .cover__title {
@@ -173,7 +172,7 @@ padding: 0px 50px 47px 78px;
 	line-height: 120%; /* 26.4px */
 	text-decoration-line: underline;
 	text-transform: uppercase;
-	padding: 50px 40px 35px 40px; 
+	padding: 50px 40px 35px 40px;
 }
 .card__description {
 	color: #FFF;
@@ -234,9 +233,6 @@ padding: 0px 50px 47px 78px;
 	display: block;
 } 
 /* Колонка с описанием */
-.about__description {
-	
-}
  .about__title {
 	color: #000;
 	font-family: Raleway;
@@ -282,12 +278,9 @@ padding: 0px 50px 47px 78px;
 	font-weight: 400;
 	line-height: normal;
 }
-.footer__menu-list-item {
-
-}
 .footer__menu-link {
 	text-decoration: none;
-	border-bottom: 1px solid black ;
+	border-bottom: 1px solid black;
 }
 .footer__menu-link_active {
 	text-decoration: none;
@@ -302,12 +295,6 @@ padding: 0px 50px 47px 78px;
 	display: flex;
 	gap: 48px;
 }
-.footer__social-list-item {
-
-}
-.footer__social-link {
-
-}
 .footer_social-icon {
 	width: 48px;
-} 
+}
