@@ -50,6 +50,7 @@ address {
 }
 .address {
 	width: 240px;
+	font-style: normal;
 	font-size: 18px;
 	line-height: 24.3px;
 	font-weight: 400;
@@ -176,11 +177,11 @@ padding: 0px 50px 47px 78px;
 	background-size: cover;
 }
 .card_type-book {
-	background-image: url("../images/card-lot-02.jpg");
+	background-image: url("../images/card-lot-02.jpg"); 
 	background-size: cover;
 }
 .card_type-picture {
-	background-image: url("../images/card-lot-03.jpg");
+	background-image: url("../images/card-lot-03.jpg"); 
 	background-size: cover;
 }
 .lots__look-more-link {
