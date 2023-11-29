@@ -188,13 +188,11 @@ padding: 0px 50px 47px 78px;
 	background-size: cover;
 }
 .card_type-book {
-	
-	background-image: url("../images/card-lot-02.jpg"); 
+	background-image: url("../images/card-lot-02.jpg");
 	background-size: cover;
 }
 .card_type-picture {
-
-	background-image: url("../images/card-lot-03.jpg"); 
+	background-image: url("../images/card-lot-03.jpg");
 	background-size: cover;
 }
 .lots__look-more-link {
@@ -241,7 +239,6 @@ padding: 0px 50px 47px 78px;
 	font-weight: 700;
 	line-height: normal;
 	text-transform: uppercase;
-	line-height: normal;
 	padding: 100px 0px;
 }
 .about__text {
