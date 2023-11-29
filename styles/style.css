@@ -3,10 +3,8 @@
 	display: flex;
 	justify-content: space-between;
 	width: 1440px;
-	padding: 92px 50px;
+	padding: 92px 49px 96px 51px;
 	margin: auto;
-	background-color: green;
-	
 }
 /* Контейнер меню */
 .header__menu {
