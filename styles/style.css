@@ -75,7 +75,6 @@ address {
 /* Заголовок */
 .cover__title {
 	color: #fff;
-	font-family: Raleway;
 	font-size: 100px;
 	font-style: normal;
 	font-weight: 700;
@@ -114,7 +113,6 @@ padding: 0px 50px 47px 78px;
 .cover__description-text {
 	color: rgba(255, 255, 255, 1);
 	text-align: center;
-	font-family: Raleway;
 	font-size: 22px;
 	font-style: normal;
 	font-weight: 400;
@@ -135,7 +133,6 @@ padding: 0px 50px 47px 78px;
 /* Стили для заголовка секции */
  .lots__heading {
 	color: #000;
-	font-family: Raleway;
 	font-size: 40px;
 	font-style: normal;
 	font-weight: 700;
@@ -164,7 +161,6 @@ padding: 0px 50px 47px 78px;
 }
 .card__title {
 	color: #FFF;
-	font-family: Raleway;
 	font-size: 22px;
 	font-style: normal;
 	font-weight: 700;
@@ -175,7 +171,6 @@ padding: 0px 50px 47px 78px;
 }
 .card__description {
 	color: #FFF;
-	font-family: Raleway;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -201,9 +196,8 @@ padding: 0px 50px 47px 78px;
 	text-decoration: none;
 	border-bottom: 1px solid black;
 	color: #000;
-	font-family: Raleway;
 	font-size: 20px;
-	font-style: normalS;
+	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
 }
@@ -233,7 +227,6 @@ padding: 0px 50px 47px 78px;
 /* Колонка с описанием */
  .about__title {
 	color: #000;
-	font-family: Raleway;
 	font-size: 40px;
 	font-style: normal;
 	font-weight: 700;
@@ -243,7 +236,6 @@ padding: 0px 50px 47px 78px;
 }
 .about__text {
 	color: #000;
-	font-family: Raleway;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -269,7 +261,6 @@ padding: 0px 50px 47px 78px;
 	list-style-type: none;
 	color: #000;
 	text-align: center;
-	font-family: Raleway;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
