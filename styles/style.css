@@ -24,11 +24,18 @@
 
 .header__links-list-item {
 	list-style-type: circle;
-	border-bottom: 1px solid black;
 }
 
 .header__links-list-item_no-bullit {
 	list-style-type: none;
+}
+
+.header__link {
+	border-bottom: 1px solid black;
+}
+
+.header__link_active {
+	border: none;
 }
 
 .header__link,
