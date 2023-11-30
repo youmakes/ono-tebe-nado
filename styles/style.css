@@ -80,6 +80,7 @@ address {
 .cover {
 	width: 100%;
 	background-image: url("../images/cover.jpg");
+	background-position: center;
 	background-size: cover;
 	position: relative;
 }
@@ -95,35 +96,38 @@ address {
 
 .cover__title {
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 	color: #fff;
 	font-size: 100px;
 	font-weight: 700;
-	line-height: 115%; /* 115px */
+	line-height: 100%; /* 100px */
 	text-transform: uppercase;
-	padding: 165px 20px 130px 50px;
+	padding: 165px 20px 135px 50px;
+	letter-spacing: 30px;
 }
 
 /* Модификаторы для заголовка */
 
 .aligned-text {
 	display: block;
-	margin-bottom: 10px;
+	line-height: 115%;
 }
 
 .aligned-text_center {
 	display: block;
 	text-align: center;
-	margin-bottom: 6px;
-	padding-right: 60px;
+	padding-right: 30px;
 }
 
 .aligned-text_right {
 	display: block;
 	text-align: end;
 }
+
 .letter-spacing-extended {
-	letter-spacing: 30px;
-	word-spacing: -23px;
+	letter-spacing: 60px;
 }
 
 /* Общий контейнер для подзаголовка и кнопки */
@@ -134,7 +138,7 @@ address {
 	justify-content: end;
 	align-items: center;
 	gap: 0px 80px;
-	padding: 0px 50px 47px 78px;
+	padding: 0px 50px 50px 78px;
 }
 
 .cover__description-text {
@@ -149,6 +153,7 @@ address {
 
 .bet-button {
 	padding: 11px 32px;
+	font-family: inherit;
 	background-color: transparent;
 	border: 1px solid white;
 	word-spacing: normal;
@@ -187,6 +192,8 @@ address {
 
 .card {
 	height: 100%;
+	background-position: center;
+	background-size: cover;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-between;
@@ -218,17 +225,14 @@ address {
 
 .card_type-film {
 	background-image: url("../images/card-lot-01.jpg");
-	background-size: cover;
 }
 
 .card_type-book {
 	background-image: url("../images/card-lot-02.jpg");
-	background-size: cover;
 }
 
 .card_type-picture {
 	background-image: url("../images/card-lot-03.jpg");
-	background-size: cover;
 }
 
 .lots__look-more-link {
