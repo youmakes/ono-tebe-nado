@@ -40,8 +40,7 @@
 
 .header__link,
 .header__link_active,
-.address__number,
-.address__email,
+.address__contact,
 .address__location {
 	text-decoration: none;
 }
@@ -72,12 +71,11 @@ address {
 	font-weight: 400;
 }
 
-.address_location {
+.address__location {
 	border: none;
 }
 
-.address__number,
-.address__email {
+.address__contact {
 	border-bottom: 1px solid black;
 }
 
@@ -95,6 +93,8 @@ address {
 .overlay {
 	width: 100%;
 	height: 100%;
+	top: 0;
+	left: 0;
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0.6);
 }
@@ -111,7 +111,7 @@ address {
 	font-weight: 700;
 	line-height: 100%; /* 100px */
 	text-transform: uppercase;
-	padding: 165px 20px 135px 50px;
+	padding: 165px 50px 135px 50px;
 	letter-spacing: 30px;
 }
 
@@ -125,7 +125,6 @@ address {
 .aligned-text_center {
 	display: block;
 	text-align: center;
-	padding-right: 30px;
 }
 
 .aligned-text_right {
@@ -135,6 +134,10 @@ address {
 
 .letter-spacing-extended {
 	letter-spacing: 60px;
+}
+
+.letter-spacing-normal {
+	letter-spacing: normal;
 }
 
 /* Общий контейнер для подзаголовка и кнопки */
@@ -160,7 +163,7 @@ address {
 
 .bet-button {
 	padding: 11px 32px;
-	font-family: "Raleway";
+	font-family: inherit;
 	background-color: transparent;
 	border: 1px solid white;
 	word-spacing: normal;
@@ -187,6 +190,7 @@ address {
 
 .lots__card-list {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 25px;
 	list-style-type: none;
 }
@@ -216,9 +220,11 @@ address {
 	font-size: 22px;
 	font-weight: 700;
 	line-height: 120%; /* 26.4px */
-	text-decoration-line: underline;
 	text-transform: uppercase;
-	padding: 50px 40px 35px 40px;
+	text-decoration-line: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
+	padding: 50px 40px 30px 40px;
 }
 
 .card__description {
