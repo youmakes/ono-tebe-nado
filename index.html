@@ -20,7 +20,7 @@
 		<nav class="header__menu">
 			<ul class="header__links-list">
 				<li class="header__links-list-item_no-bullit">
-					<a href="#01" class="header__link_active">главная</a>
+					<a href="#01" class="header__link header__link_active">главная</a>
 				</li>
 				<li class="header__links-list-item">
 					<a href="#02" class="header__link">посмотреть лоты</a>
@@ -32,18 +32,17 @@
 		</nav>
 
 		<!-- Контейнер логотипа -->
-		<div class="header__logo">
-			<a href="index.html">
-				<img src="images/logo-black.svg" alt="Логотип" class="header__logo-img">
-			</a>
-		</div>
+		<a class="header__logo" href="index.html">
+			<img src="./images/logo-black.svg" alt="Логотип" class="header__logo-img">
+		</a>
 
 		<!-- Контейнер с адресом -->
 		<address>
 			<div class="address">
-				<a href="tel:+99995555555" class="header__address">+9 999 555 5555</a><br>
-				<a href="mailto:info@sobaka.ge" class="header__address">info@sobaka.ge</a><br>
-				<a class="header__address">наб. Принсенграхт 263-265, Амстердам</a>
+				<a href="tel:+99995555555" class="address__number">+9 999 555 5555</a><br>
+				<a href="mailto:info@sobaka.ge" class="address__email">info@sobaka.ge</a><br>
+				<a href="https://yandex.ru/maps/?ll=5.087913%2C52.317478&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoyMjI4MTYzMzE2EiVLb25pbmtyaWprIGRlciBOZWRlcmxhbmRlbiwgQW1zdGVyZGFtIgoN14-cQBUDflFC&source=serp_navig&z=10.09"
+					target="_blank" class="address__location">наб. Принсенграхт 263-265, Амстердам</a>
 			</div>
 		</address>
 	</header>
@@ -53,19 +52,17 @@
 
 		<!-- *Секция Cover -->
 		<section class="cover">
-			<div class="overlay">
-
-				<!-- Заголовок -->
-				<h1 class="cover__title">
-					<span class="aligned-text"><span class="letter-spacing-extended">он о</span></span>
-					<span class="aligned-text_center"><span class="letter-spacing-extended">теб е</span></span>
-					<span class="aligned-text_right"><span class="letter-spacing-extended">н адо</span></span>
-				</h1>
-				<!-- Общий контейнер для подзаголовока и кнопки -->
-				<div class="cover__description">
-					<h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
-					<button class="bet-button cover__description-text">Сделать ставку</button>
-				</div>
+			<div class="overlay"></div>
+			<!-- Заголовок -->
+			<h1 class="cover__title">
+				<span class="aligned-text"><span class="letter-spacing-extended">он о</span></span>
+				<span class="aligned-text_center"><span class="letter-spacing-extended">теб е</span></span>
+				<span class="aligned-text_right"><span class="letter-spacing-extended">н адо</span></span>
+			</h1>
+			<!-- Общий контейнер для подзаголовока и кнопки -->
+			<div class="cover__description">
+				<h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
+				<button type="submit" class="bet-button cover__description-text">Сделать ставку</button>
 			</div>
 		</section>
 
@@ -78,14 +75,11 @@
 				<li class="lots__card-list-item">
 					<a href="#" class="card-link">
 						<article class="card card_type-film">
-							<div class="overlay">
-								<div class="card">
-									<h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
-									<p class="card__description">
-										Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали,
-										что режиссёр — Пол Томас Андерсон?</p>
-								</div>
-							</div>
+							<div class="overlay"></div>
+							<h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+							<p class="card__description">
+								Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали,
+								что режиссёр — Пол Томас Андерсон?</p>
 						</article>
 					</a>
 				</li>
@@ -94,16 +88,13 @@
 				<li class="lots__card-list-item">
 					<a href="#" class="card-link">
 						<article class="card card_type-book">
-							<div class="overlay">
-								<div class="card">
-									<h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-									<p class="card__description">
-										Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
-										древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории
-										литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера.
-										Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-								</div>
-							</div>
+							<div class="overlay"></div>
+							<h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+							<p class="card__description">
+								Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
+								древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории
+								литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера.
+								Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
 						</article>
 					</a>
 				</li>
@@ -112,15 +103,12 @@
 				<li class="lots__card-list-item">
 					<a href="#" class="card-link">
 						<article class="card card_type-picture">
-							<div class="overlay">
-								<div class="card">
-									<h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-									<p class="card__description">
-										Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-										похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое
-										поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-								</div>
-							</div>
+							<div class="overlay"></div>
+							<h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+							<p class="card__description">
+								Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
+								похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое
+								поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
 						</article>
 					</a>
 				</li>
@@ -133,7 +121,7 @@
 
 			<!-- Колонка с логотипом -->
 			<div class="about__logo">
-				<img src="images/logo-white.svg" alt="Логотип" class="about__logo-image">
+				<img src="./images/logo-white.svg" alt="Логотип" class="about__logo-image">
 			</div>
 
 			<!-- Колонка с описанием -->
@@ -162,9 +150,10 @@
 		<!-- Контейнер с адресом -->
 		<address>
 			<div class="address">
-				<a href="tel:+99995555555" class="header__address">+9 999 555 5555</a><br>
-				<a href="mailto:info@sobaka.ge" class="header__address">info@sobaka.ge</a><br>
-				<a class="header__address">наб. Принсенграхт 263-265, Амстердам</a>
+				<a href="tel:+99995555555" class="address__number">+9 999 555 5555</a><br>
+				<a href="mailto:info@sobaka.ge" class="address__email">info@sobaka.ge</a><br>
+				<a href="https://yandex.ru/maps/?ll=5.087913%2C52.317478&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoyMjI4MTYzMzE2EiVLb25pbmtyaWprIGRlciBOZWRlcmxhbmRlbiwgQW1zdGVyZGFtIgoN14-cQBUDflFC&source=serp_navig&z=10.09"
+					target="_blank" class="address__location">наб. Принсенграхт 263-265, Амстердам</a>
 			</div>
 		</address>
 
@@ -172,7 +161,7 @@
 		<nav class="footer__menu">
 			<ul class="footer__menu-list">
 				<li class="footer__menu-list-item">
-					<a href="#01" class="footer__menu-link_active">главная</a>
+					<a href="#01" class="footer__menu-link footer__menu-link_active">главная</a>
 				</li>
 				<li class="footer__menu-list-item">
 					<a href="#02" class="footer__menu-link">посмотреть лоты</a>
@@ -184,25 +173,23 @@
 		</nav>
 
 		<!-- Контейнер с соц. сетями -->
-		<div class="footer__social">
-			<ul class="footer__social-list">
-				<li class="footer__social-list-item">
-					<a href="https://www.youtube.com/@YandexPracticum" target="_blank" class="footer__social-link">
-						<img src="../images/yt.svg" alt="Youtube" class="footer_social-icon">
-					</a>
-				</li>
-				<li class="footer__social-list-item">
-					<a href="https://vk.com/yandex.practicum" target="_blank" class="footer__social-link">
-						<img src="../images/vk.svg" alt="Vk" class="footer_social-icon">
-					</a>
-				</li>
-				<li class="footer__social-list-item">
-					<a href="https://ru.pinterest.com/" target="_blank" class="footer__social-link">
-						<img src="../images/pinterest.svg" alt="Pinterest" class="footer_social-icon">
-					</a>
-				</li>
-			</ul>
-		</div>
+		<ul class="footer__social-list">
+			<li class="footer__social-list-item">
+				<a href="https://www.youtube.com/@YandexPracticum" target="_blank" class="footer__social-link">
+					<img src="./images/yt.svg" alt="Youtube" class="footer_social-icon">
+				</a>
+			</li>
+			<li class="footer__social-list-item">
+				<a href="https://vk.com/yandex.practicum" target="_blank" class="footer__social-link">
+					<img src="./images/vk.svg" alt="Vk" class="footer_social-icon">
+				</a>
+			</li>
+			<li class="footer__social-list-item">
+				<a href="https://ru.pinterest.com/" target="_blank" class="footer__social-link">
+					<img src="./images/pinterest.svg" alt="Pinterest" class="footer_social-icon">
+				</a>
+			</li>
+		</ul>
 	</footer>
 
 </body>
