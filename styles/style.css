@@ -1,1 +1,53 @@
-/* место для вашего кода */
+/* Переиспользуемые блоки */
+
+.address {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+/* Шапка */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 94px 24px 96px;
+}
+
+.header__menu {
+  margin-left: 27px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  font-size: 18px;
+}
+
+.header__links-list-item {
+  list-style: circle;
+  letter-spacing: 0.2px;
+}
+
+.header__links-list-item_no-bullet {
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 135px;
+  margin-left: 42px;
+}
+
+.header__address {
+  margin-left: 192px;
+}
