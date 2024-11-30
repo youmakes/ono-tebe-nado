@@ -6,6 +6,11 @@
   line-height: 24.3px;
 }
 
+.address__link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -132,6 +137,7 @@
   padding: 12px 32px 11px 31px;
   font-weight: 500;
   background-color: transparent;
+  cursor: pointer;
 }
 
 /* Секция lots */
@@ -272,6 +278,10 @@
   list-style: none;
 }
 
+.footer__menu-list-item {
+  font-size: 18px;
+}
+
 .footer__menu-link_active {
   text-decoration: none;
 }
@@ -282,15 +292,6 @@
   list-style: none;
 }
 
-.footer__menu-list-item {
-  font-size: 18px;
-}
-
 .footer__social-icon {
   width: 48px;
-}
-
-.overlay:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-  transition: background-color 1s ease;
 }
