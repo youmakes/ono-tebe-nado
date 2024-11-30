@@ -1,4 +1,4 @@
-/* Переиспользуемые блоки */
+/* Cтили для переиспользуемых блоков */
 
 .address {
   font-size: 18px;
@@ -104,7 +104,7 @@
 }
 
 .aligned-text_center {
-  margin-right: 60px;
+  padding-right: 60px;
   text-align: center;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .lots__heading {
-  margin: 0px 0px 27px 40px;
+  padding: 0px 0px 27px 40px;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
@@ -151,7 +151,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .lots__card-list-item {
@@ -167,6 +167,9 @@
   justify-content: space-between;
   height: 100%;
   padding: 51px 40px 46px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card-link {
@@ -178,20 +181,14 @@
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
@@ -228,7 +225,7 @@
 }
 
 .about__column {
-  margin-top: 137px;
+  padding-top: 137px;
   padding-right: 5px;
 }
 
@@ -291,4 +288,9 @@
 
 .footer__social-icon {
   width: 48px;
+}
+
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: background-color 1s ease;
 }
