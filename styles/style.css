@@ -99,6 +99,9 @@ letter-spacing: 0em;
 .aligned-text:not(:last-child) {
   padding-bottom: 10px;
 }
+.aligned-text:nth-child(2) {
+  padding-bottom: 5px;
+}
 
 .aligned-text_center {
   margin-right: 60px ;
@@ -114,7 +117,7 @@ letter-spacing: 0em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 50px 50px 78px;
+  padding: 5px 50px 50px 78px;
   font-size: 22px;
 }
 
@@ -214,7 +217,7 @@ letter-spacing: 0em;
   margin: 146px 24px 183px;
 }
 .about__column {
-  margin-top: 136px;
+  margin-top: 137px;
   padding-right: 5px;
 }
 .about__logo {
