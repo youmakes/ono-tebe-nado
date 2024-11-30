@@ -20,7 +20,7 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 94px 24px 92px;
+  padding: 93px 24px 92px;
 }
 
 .header__menu {
@@ -53,8 +53,8 @@
 
 .header__logo {
   display: block;
-  max-width: 135px;
-  margin-left: 42px;
+  width: 136px;
+  margin-left: 41px;
 }
 
 .header__address {
