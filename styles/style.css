@@ -23,13 +23,14 @@
 /* Шапка */
 
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
   align-items: center;
-  padding: 93px 24px 92px;
+  padding: 92px 50px;
 }
 
 .header__menu {
-  margin-left: 26px;
+  justify-self: start;
 }
 
 .header__links-list {
@@ -58,12 +59,15 @@
 
 .header__logo {
   display: block;
+  width: min-content;
+}
+
+.header__logo-image {
   width: 136px;
-  margin-left: 35px;
 }
 
 .header__address {
-  margin-left: 192px;
+  justify-self: end;
 }
 
 /* Стили для основного контента */
